@@ -136,6 +136,7 @@ class Universe(): # holds constants and sim objects
 ## Create the universe
 world = Universe("universe", 0.05, 5.5)
 ## add bodies
+## Body("name", mass, radius, [x velocity, y velocity], [x coord, y coord])
 world.add_body(Body("Titan", 1300, 3, [0,0], [80,30])) # world.bodies[0]
 world.add_body(Body("Europa", 1000, 2, [0,0], [10,10]))   # world.bodies[1]
 world.add_body(Body("Fraztater", 1600, 4, [0,-1], [140, 140]))
